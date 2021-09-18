@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Product, Parameter, ParametersItem
+from .models import Parameter, ParametersItem, Product
 
 
 class ParameterInline(admin.TabularInline):
